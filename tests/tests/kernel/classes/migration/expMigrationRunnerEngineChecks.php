@@ -89,6 +89,12 @@ trait expMigrationRunnerEngineChecks
         }
         expKernelTableSchema::reset();
         eZContentObject::clearCache();
+        // what the process learned on the test's database: the class ids and class attribute ids by identifier (a
+        // later class or attribute filter would use the ids of that database, or miss a class it never had) and
+        // whether the tables of the signed-in sessions exist
+        eZContentClass::expireCache();
+        if ( class_exists( 'expUserSessionTracker' ) )
+            expUserSessionTracker::reset();
         $this->removeRunnerDir();
     }
 
